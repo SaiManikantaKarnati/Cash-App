@@ -211,7 +211,7 @@
     font-family: 'Agrandir';
     font-weight: 800;
     line-height: 40px;
-    left: 237px;
+    left: 67.98%;
     top: 234px;
 }
 
@@ -226,13 +226,14 @@
 
 .payments-phone-1 {
     position: relative;
-    left: 290px;
+    left: 21.22%;
     align-items: center;
 }
 
 .payments-column-1 {
     position: relative;
-    bottom: 210px;
+    bottom: 28%;
+    right: 46.12%;
     width: 810px;
     height: 497.54px;
     flex-shrink: 0;
@@ -240,58 +241,60 @@
 
 .payments-pillar-medium1 {
     position: relative;
-    bottom: 230px;
-    right: 170px;
+    bottom: 44%;
+    right: 57.83%;
 }
 
 .payments-pillar-small {
     position: relative;
-    bottom: 265px;
-    left: 70px;
+    bottom: 48.66%;
+    right: 40.26%;
 }
 
 .payments-pillar-medium2 {
     position: relative;
-    bottom: 230px;
-    right: 210px;
+    bottom: 44.66%;
+    right: 45.75%;
+    z-index: 2;
 }
 
 .payments-pillar-medium3 {
     position: relative;
-    bottom: 130px;
-    right: 245px;
+    bottom: 98.66%;
+    left: 46.12%;
+    z-index: 2;
 }
 
 .payments-pillar-large {
     position: relative;
-    left: 120px;
-    bottom: 290px;
+    left: 32.21%;
+    bottom: 118.66%;
+    z-index: 1;
 }
 
 .payments-column-2 {
     position: relative;
-    bottom: 225px;
-    right: 150px;
-    z-index: 1;
+    bottom: 96%;
+    right: 6.22%;
     width: 810px;
     height: 497.54px;
-    flex-shrink: 0;
+    z-index: 1;
 }
 
 .payments-pillar-medium4 {
     position: relative;
-    bottom: 775px;
-    left: 955px;
+    bottom: 128.66%;
+    right: 15.37%;
     z-index: 0;
 }
 
 .payments-column-3 {
     position: relative;
-    bottom: 710px;
-    left: 1000px;
+    bottom: 180%;
+    left: 40.99%;
     width: 810px;
     height: 497.54px;
-    flex-shrink: 0;
+    z-index: 0;
 }
 /* ------------------------------------------------------------------------------------------ */
 
@@ -301,6 +304,7 @@
     width: 1366px;
     position: relative;
     overflow: hidden;
+    z-index: 2;
 }
 
 .banking {

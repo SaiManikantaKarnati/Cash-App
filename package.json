@@ -2,7 +2,6 @@
   "name": "cash-app-react",
   "version": "1.0.0",
   "description": "cash app landing page",
-  "main": "App.js",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
