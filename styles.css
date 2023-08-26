@@ -24,7 +24,7 @@
     justify-content: space-evenly;
     list-style-type: none;
     width: 766px;
-    height: 18px;
+    height: 10px;
     position: relative;
     top: 30px;
     gap: 20px;
@@ -38,7 +38,7 @@
 
 .logo {
     position: relative;
-    top: 30px;
+    top: 20px;
     left: 50px;
     width: 30px;
     height: 44px;
@@ -49,7 +49,7 @@
     position: relative;
     width: 64px;
     height: 36px;
-    top: 30px;
+    top: 25px;
     right: 50px;
     gap: 20px;
     display: inline-flex;
@@ -60,19 +60,21 @@
     background-color: black;
     font-family: 'Agrandir', sans-serif;
     position: relative;
-    max-width: 100%;
+    width: 1366px;
+    height: 694px;
     background-image: url("./src/utils/vector.png");
     background-repeat: no-repeat;
-    background-size: contain;
     overflow: hidden;
+    background-position: 0.36% 2.16%;
+
 }
 
 .intro-cube-1 {
     position: relative;
-    left: 210px;
+    left: 16.69%;
     width: 74px;
     height: 73.21px;
-    top: -175px;
+    bottom: 180px;
     flex-shrink: 0;
 }
 
@@ -80,8 +82,8 @@
     font-size: 193px;
     color: white;
     position: relative;
-    top: -150px;
-    left: 23vw;
+    top: -120px;
+    left: 23.99%;
     font-weight: 800;
     letter-spacing: 0.5px;
     line-height: 1.25;
@@ -90,17 +92,18 @@
 .app {
     font-size: 193px;
     color: white;
-    top: -230px;
+    bottom: 200px;
     position: relative;
     font-weight: 800;
     letter-spacing: 0.5px;
-    left: 30vw;
+    left: 30.01%;
     height: 302.88px;
+    z-index: 1;
 }
 
 .intro-stairs-1 {
     position: relative;
-    left: 930px;
+    left: 68.08%;
     width: 200px;
     height: 261px;
     object-fit: cover;
@@ -108,20 +111,20 @@
 
 .intro-phone-1 {
     position: absolute;
-    left: 35.5vw;
-    top: 115px;
+    left: 35.19%;
+    top: 21.9%;
 }
 
 .intro-cubes-1 {
     position: absolute;
-    bottom: 380px;
-    left: 200px;
+    bottom: 7.92%;
+    left: 15.37%;
 }
 
 .intro-pillar-1 {
     position: absolute;
-    right : 300px;
-    bottom: 330px;
+    right : 20.49%;
+    top: 64.8%;
 }
 
 .buttons {
@@ -129,7 +132,7 @@
     position: relative;
     gap: 20px;
     bottom: 220px;
-    left: 50px;
+    left: 3.66%;
 }
 
 .google-play, .app-store {
@@ -157,7 +160,7 @@
     bottom: 100px;
     display: block;
     position: relative;
-    left: 670px;
+    left: 47.58%;
     bottom: 270px;
 }
 
@@ -171,7 +174,7 @@
     line-height: 13px;
     display: block;
     bottom: 320px;
-    right: -800px;
+    left: 58.56%;
     width: 363px;
 }
 
@@ -181,7 +184,7 @@
     gap: 30px;
     position: relative;
     bottom: 370px;
-    left: 1170px;
+    left: 85.65%;
 }
 /* ----------------------------------------------------------------------------------------------------- */
 .page-2-body {
@@ -190,6 +193,15 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position:0px 420px;
+    height: 750px;
+    width: 1366px;
+}
+
+.payments-data {
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+
 }
 
 .payments {
@@ -201,7 +213,6 @@
     line-height: 40px;
     left: 237px;
     top: 234px;
-    width: 336px;
 }
 
 .payments-text {
@@ -211,7 +222,6 @@
     font-size: 16px;
     top: 240px;
     width: 352px;
-
 }
 
 .payments-phone-1 {
@@ -282,4 +292,356 @@
     width: 810px;
     height: 497.54px;
     flex-shrink: 0;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+.page-3-body {
+    background-color: #00d54b;
+    height: 750px;
+    width: 1366px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banking {
+    color: white;
+    font-family: 'Agrandir';
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    top: 160px;
+    left: 16.1%;
+}
+
+.banking-text {
+    color: #000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    top: 170px;
+    left: 16.1%;
+    position: relative;
+}
+
+.banking-hole-1 {
+    position: relative;
+}
+
+.banking-column {
+    position: relative;
+    bottom: 27%;
+    left: 5.27%;
+}
+
+.banking-track-2 {
+    position: relative;
+    top: 2.13%;
+    left: 45.16%;
+}
+
+.banking-track-1 {
+    position: relative;
+    bottom: 22.66%;
+    left: 14.66%;
+}
+
+.banking-phone-body {
+    width: 350px;
+    height: 407.988px;
+    flex-shrink: 0;
+}
+
+.banking-phone {
+    position: relative;
+    bottom: 44%;
+    left: 35.5%;
+}
+
+.banking-ramp-1 {
+    position: relative;
+    left: 26.35%;
+    bottom: 14.66%;
+}
+
+.banking-stairs-2 {
+    position: relative;
+    top: 15.06%;
+    right: 45.38%;
+}
+
+.banking-ramp-2 {
+    position: relative;
+    top: 24%;
+    right: 43.92%;
+}
+
+.banking-stairs-1 {
+    position: relative;
+    left: 57.1%;
+    bottom: 52.66%;
+}
+
+.banking-monster {
+    position: relative;
+    bottom: 33.33%;
+    left: 54.17%;
+}
+
+.banking-cubes {
+    position: relative;
+    bottom: 34.66%;
+    left: 19.03%;
+}
+
+.banking-hole-2 {
+    position: relative;
+    bottom: 6.66%;
+    right: 1.83%;
+}
+
+.banking-tube {
+    position: relative;
+    display: block;
+    bottom: 290px;
+    left: 480px;
+}
+/* ------------------------------------------------------------------------------------------------ */
+.page-4-body {
+    background-color: #000;
+    width: 1366px;
+    height: 750px;
+    overflow: hidden;
+}
+
+.boost-stairs-2 {
+    position: relative;
+    top: 21.33%;
+}
+
+.boost-stairs-1 {
+    position: relative;
+    left: 4.39%;
+}
+
+.boost-phone {
+    position: relative;
+    bottom: 80.4%;
+    left: 40.62%;
+}
+
+.boost-burger {
+    position: relative;
+    bottom: 104%;
+    left: 46.12%;
+}
+
+.boost-card {
+    position: relative;
+    bottom: 121.33%;
+    left: 48.31%;
+}
+
+.boost-hand {
+    position: relative;
+    bottom: 143.33%;
+    left: 50.51%;
+}
+
+.boost-coffee {
+    position: relative;
+    bottom: 83.33%;
+    left: 36.96%;
+}
+
+.boost-shoe {
+    position: relative;
+    bottom: 103.33%;
+    left: 50.51%;
+}
+
+.boost-data {
+    position: relative;
+    bottom: 137.33%;
+    left: 16.1%;
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.boost {
+    color: #00d54b;
+    font-family: 'Agrandir';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.boost-text {
+    color: white;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.3px;  
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.page-5-body {
+    width: 1366px;
+    height: 750px;
+    background-color: #00D54B;
+    position: relative;
+    background-image: url('./src/utils/investing_rays_1.png');
+    overflow: hidden;
+}   
+
+.investing-floor-1 {
+    position: absolute;
+    top: 60.26%;
+    height: auto;
+}
+
+.investing-graph-1 {
+    position: relative;
+    top: 41.33%;
+}
+
+.investing-graph-2 {
+    position: relative;
+    top: 16%;
+    left: 34.18%;
+}
+
+.investing {
+    position: relative;
+    bottom: 40%;
+    width: 258px;
+    color: #FFF;
+    font-family: Agrandir;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    left: 41.72%;
+}
+
+.investing-phones {
+    position: relative;
+    display: flex;
+    gap: 74px;
+    bottom: 26.66%;
+    left: 35.87%;
+}
+
+.stocks-data {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 68%;
+    left: 7.32%;
+}
+
+.stocks {
+    position: relative;
+    color: #000;
+    font-family: Agrandir;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.stocks-text {
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    width: 352px;
+    color: #000;
+}
+
+.bitcoin-data {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 84.66%;
+    left: 68.81%;
+    width: 336px;
+}
+
+.bitcoin {
+    width: 336px;
+    color: #000;
+    font-family: 'Agrandir';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.bitcoin-text {
+    font-family: 'Mulish';
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 22px; 
+    letter-spacing: 0.3px;
+}
+
+.page-5-buttons {
+    display: flex;
+    position: relative;
+    bottom: 48.66%;
+    gap: 20px;
+    left: 5%;
+}
+
+.page-5-app-store, .page-5-google-play {
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid black;
+    color: #000;
+    font-family: 'Agrandir';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.page-5-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    bottom: 62.66%;
+    left: 86%;
+}
+
+.page-5-footer-text {
+    width: 363px;
+    color: #606060;
+    font-family: 'Mulish';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13px;
+    position: relative;
+    bottom: 57.33%;
+    left: 58%;
 }

@@ -16,10 +16,12 @@ const Page1Body = () => {
             <img className="intro-cube-1" src={intro_cube_1} alt="intro-cube1"></img>
 
             <img className="intro-stairs-1" src={intro_stairs_1} alt="intro_stairs_1"></img>
-
-            <p className="cash">CASH</p>
+            
+            <div className="intro-text">
+                <p className="cash">CASH</p>
+                <p className="app">APP</p>
+            </div>
             <img className="intro-phone-1" src={intro_phone_1} alt="intro_phone_1"></img>
-            <p className="app">APP</p>
 
             <img className="intro-cubes-1" src={intro_cubes_1} alt="intro_cubes_1"></img>
 
@@ -27,10 +29,10 @@ const Page1Body = () => {
 
             <div className="buttons">
                 <div className="button1">
-                    <button className="app-store"><img className="apple" src={apple} alt="apple-img"></img><span className="button-text">APP STORE</span></button>
+                    <button className="app-store"><img src={apple} alt="apple-img"></img><span className="button-text">APP STORE</span></button>
                 </div>
                 <div className="button2">
-                    <button className="google-play"><img className="android" src={android} alt="android-img"></img><span className="button-text">GOOGLE PLAY</span></button>
+                    <button className="google-play"><img src={android} alt="android-img"></img><span className="button-text">GOOGLE PLAY</span></button>
                 </div>
             </div>
 

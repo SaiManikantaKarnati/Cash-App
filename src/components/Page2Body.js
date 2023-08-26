@@ -16,7 +16,7 @@ const Page2Body = () => {
                 <img className="payments-phone-1" src={payments_phone_1} alt="payments_phone_1"></img>
             </div>
             
-            <img className="payments-column-1" src={payments_column} alt="payments_column"></img>
+            {/* <img className="payments-column-1" src={payments_column} alt="payments_column"></img>
             <img className="payments-pillar-small" src={payments_pillar_small} alt="payments_pillar_small"></img>
             <img className="payments-pillar-medium1" src={payments_pillar_medium} alt="payments_pillar_medium"></img>
             <img className="payments-pillar-large" src={payments_pillar_large} alt="payments_pillar_large"></img>
@@ -24,7 +24,7 @@ const Page2Body = () => {
             <img className="payments-pillar-medium3" src={payments_pillar_medium} alt="payments_pillar_medium"></img>
             <img className="payments-column-2" src={payments_column} alt="payments_column"></img>
             <img className="payments-pillar-medium4" src={payments_pillar_medium} alt="payments_pillar_medium"></img>
-            <img className="payments-column-3" src={payments_column} alt="payments_column"></img>
+            <img className="payments-column-3" src={payments_column} alt="payments_column"></img> */}
 
         </div>
     )
