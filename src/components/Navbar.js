@@ -1,5 +1,6 @@
 import logo from "../utils/logo.png"
 import eye_button from "../utils/eye_button.png"
+
 const Nav = () => {
     return (
         <nav className="nav-bar">
@@ -18,6 +19,7 @@ const Nav = () => {
             <img className="eye-button" src={eye_button} alt="eye-button_img"></img>
         </nav>
     )
+    
 }
 
 export default Nav;
